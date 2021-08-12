@@ -1,5 +1,5 @@
 const fetch = require('node-fetch');
-const prompt = require('prompt-sy')({
+const prompt = require('prompt-syc')({
     'fake_val': 'OPTIONAL CONFIG VALUES HERE'
 });
 
