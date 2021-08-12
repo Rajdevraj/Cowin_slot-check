@@ -4,8 +4,8 @@ const prompt = require('prompt-sy')({
 });
 
 
-const pincode = prompt("Enter the Pin code\r\n");
-var date=prompt("enter the Date in DD-MM-YYY Formate\r\n");
+const pincode = prompt("Enter the Pin code");
+var date=prompt("enter the Date in DD-MM-YYY Formate");
 if(!isNaN(pincode))
 {
 
